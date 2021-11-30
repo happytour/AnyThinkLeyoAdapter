@@ -164,6 +164,7 @@
 				E4CB9B8E2754DF0100AA669B /* Frameworks */,
 				E4CB9B8F2754DF0100AA669B /* Resources */,
 				A77215F27F4C4F2EDA0CA670 /* [CP] Copy Pods Resources */,
+				E4CB9BFC2756164100AA669B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -233,6 +234,23 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnyThinkLeyoAdapter/Pods-AnyThinkLeyoAdapter-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E4CB9BFC2756164100AA669B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" -a \"${CONFIGURATION}\" = \"Release\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${TARGET_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\n\nif [ -d \"${INSTALL_DIR}\" ]\n# -d file 检测文件是否是目录，如果是，则返回 true。 [ -d $file ] 返回 false。\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n#mkdir -p递归创建目录，会把子目录也创建出来\n#复制真机和模拟器目录下的文件夹,合并到一起\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\ncp -R \"${SIMULATOR_DIR}/\" \"${INSTALL_DIR}/\"\n#cp -R 拷贝文件，对特殊文件（管道文件，块设备文件，字符设备文件）会进行创建操作，而不是拷贝\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nDEVICE_FILE=\"${DEVICE_DIR}/${TARGET_NAME}\"\nSIMULATOR_FILE=\"${SIMULATOR_DIR}/${TARGET_NAME}\"\nOUTPUT_FILE=\"${INSTALL_DIR}/${TARGET_NAME}\"\necho \"OUTPUT_FILE=${OUTPUT_FILE}\"\nlipo -info ${DEVICE_FILE}\nlipo -info ${SIMULATOR_FILE}\nlipo -create ${DEVICE_FILE} ${SIMULATOR_FILE} -output ${OUTPUT_FILE}\nlipo -info ${OUTPUT_FILE}\nopen \"${SRCROOT}/Products/\"\necho  \"${INSTALL_DIR}/\"\nfi\n";
 		};
 		FEF994B6E20F78EBD72DDB0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
