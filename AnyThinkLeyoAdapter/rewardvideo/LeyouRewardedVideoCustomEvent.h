@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LeyouRewardedVideoCustomEvent : ATRewardedVideoCustomEvent<LYRewardVideoAdDelegate>
-
+@property(nonatomic, strong)  NSString *slotId;
 @end
 
 NS_ASSUME_NONNULL_END

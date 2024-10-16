@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LeyouInterstitialCustomEvent : ATInterstitialCustomEvent<LYInterstitialAdDelegate>
-
+@property(nonatomic, strong)  NSString *slotId;
 @end
 
 NS_ASSUME_NONNULL_END

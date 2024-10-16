@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4130371BD7554B677785E38F /* libPods-AnyThinkLeyoAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 888609C66BEBDF6277964872 /* libPods-AnyThinkLeyoAdapter.a */; };
+		E45D839C2CA3AC660083FD55 /* LeyouBiddingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D83982CA3AC660083FD55 /* LeyouBiddingManager.m */; };
+		E45D839D2CA3AC660083FD55 /* LeyouBiddingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D83992CA3AC660083FD55 /* LeyouBiddingManager.h */; };
+		E45D839E2CA3AC660083FD55 /* LeyouBiddingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D839A2CA3AC660083FD55 /* LeyouBiddingRequest.m */; };
+		E45D839F2CA3AC660083FD55 /* LeyouBiddingRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D839B2CA3AC660083FD55 /* LeyouBiddingRequest.h */; };
+		E45D83A42CA415070083FD55 /* LeyouBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D83A22CA415070083FD55 /* LeyouBannerAdapter.h */; };
+		E45D83A52CA415070083FD55 /* LeyouBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D83A32CA415070083FD55 /* LeyouBannerAdapter.m */; };
+		E45D83A92CA415230083FD55 /* LeyouBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D83A72CA415230083FD55 /* LeyouBannerCustomEvent.h */; };
+		E45D83AA2CA415230083FD55 /* LeyouBannerCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D83A82CA415230083FD55 /* LeyouBannerCustomEvent.m */; };
+		E45D83B12CA4FEFE0083FD55 /* LeyouNativeAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D83AF2CA4FEFE0083FD55 /* LeyouNativeAdapter.h */; };
+		E45D83B22CA4FEFE0083FD55 /* LeyouNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D83B02CA4FEFE0083FD55 /* LeyouNativeAdapter.m */; };
+		E45D83B52CA4FF290083FD55 /* LeyouNativeCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D83B32CA4FF290083FD55 /* LeyouNativeCustomEvent.h */; };
+		E45D83B62CA4FF290083FD55 /* LeyouNativeCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E45D83B42CA4FF290083FD55 /* LeyouNativeCustomEvent.m */; };
 		E4CB9B952754DF0100AA669B /* AnyThinkLeyoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CB9B942754DF0100AA669B /* AnyThinkLeyoAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4CB9BDB2754EE9400AA669B /* LeyouSplashAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CB9BD92754EE9400AA669B /* LeyouSplashAdapter.h */; };
 		E4CB9BDC2754EE9400AA669B /* LeyouSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB9BDA2754EE9400AA669B /* LeyouSplashAdapter.m */; };
@@ -20,12 +33,34 @@
 		E4CB9BEF275508E900AA669B /* LeyouRewardedVideoAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB9BED275508E900AA669B /* LeyouRewardedVideoAdapter.m */; };
 		E4CB9BF22755095300AA669B /* LeyouRewardedVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CB9BF02755095300AA669B /* LeyouRewardedVideoCustomEvent.h */; };
 		E4CB9BF32755095300AA669B /* LeyouRewardedVideoCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E4CB9BF12755095300AA669B /* LeyouRewardedVideoCustomEvent.m */; };
-		E5F03A7DA81ABC85A21FF5E2 /* libPods-AnyThinkLeyoAdapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DAC7985032C4EB525A9D78 /* libPods-AnyThinkLeyoAdapter.a */; };
+		E4EF27862CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF27802CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.m */; };
+		E4EF27872CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF27812CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.m */; };
+		E4EF27882CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EF27822CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.h */; };
+		E4EF27892CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EF27832CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.h */; };
+		E4EF278C2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EF278A2CA80FE2007CCDD7 /* LeyouNativeAdAdapter.h */; };
+		E4EF278D2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF278B2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.m */; };
+		E4EF27992CA90342007CCDD7 /* LeyouNativeAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF27972CA90342007CCDD7 /* LeyouNativeAdRenderer.m */; };
+		E4EF279A2CA90342007CCDD7 /* LeyouNativeAdRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EF27982CA90342007CCDD7 /* LeyouNativeAdRenderer.h */; };
+		E4EF279D2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E4EF279B2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.h */; };
+		E4EF279E2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF279C2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24DAC7985032C4EB525A9D78 /* libPods-AnyThinkLeyoAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnyThinkLeyoAdapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8788BBF8CD07904BD5DBF5E2 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyThinkLeyoAdapter.debug.xcconfig"; path = "Target Support Files/Pods-AnyThinkLeyoAdapter/Pods-AnyThinkLeyoAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		3D0EFB7E0345FE8DB4FBF6D7 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyThinkLeyoAdapter.debug.xcconfig"; path = "Target Support Files/Pods-AnyThinkLeyoAdapter/Pods-AnyThinkLeyoAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		68BEE74DD4CB65B4F30A1FBF /* Pods-AnyThinkLeyoAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyThinkLeyoAdapter.release.xcconfig"; path = "Target Support Files/Pods-AnyThinkLeyoAdapter/Pods-AnyThinkLeyoAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		888609C66BEBDF6277964872 /* libPods-AnyThinkLeyoAdapter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnyThinkLeyoAdapter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45D83982CA3AC660083FD55 /* LeyouBiddingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouBiddingManager.m; sourceTree = "<group>"; };
+		E45D83992CA3AC660083FD55 /* LeyouBiddingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouBiddingManager.h; sourceTree = "<group>"; };
+		E45D839A2CA3AC660083FD55 /* LeyouBiddingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouBiddingRequest.m; sourceTree = "<group>"; };
+		E45D839B2CA3AC660083FD55 /* LeyouBiddingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouBiddingRequest.h; sourceTree = "<group>"; };
+		E45D83A22CA415070083FD55 /* LeyouBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouBannerAdapter.h; sourceTree = "<group>"; };
+		E45D83A32CA415070083FD55 /* LeyouBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouBannerAdapter.m; sourceTree = "<group>"; };
+		E45D83A72CA415230083FD55 /* LeyouBannerCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouBannerCustomEvent.h; sourceTree = "<group>"; };
+		E45D83A82CA415230083FD55 /* LeyouBannerCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouBannerCustomEvent.m; sourceTree = "<group>"; };
+		E45D83AF2CA4FEFE0083FD55 /* LeyouNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouNativeAdapter.h; sourceTree = "<group>"; };
+		E45D83B02CA4FEFE0083FD55 /* LeyouNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeAdapter.m; sourceTree = "<group>"; };
+		E45D83B32CA4FF290083FD55 /* LeyouNativeCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouNativeCustomEvent.h; sourceTree = "<group>"; };
+		E45D83B42CA4FF290083FD55 /* LeyouNativeCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeCustomEvent.m; sourceTree = "<group>"; };
 		E4CB9B912754DF0100AA669B /* AnyThinkLeyoAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyThinkLeyoAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CB9B942754DF0100AA669B /* AnyThinkLeyoAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyThinkLeyoAdapter.h; sourceTree = "<group>"; };
 		E4CB9BD92754EE9400AA669B /* LeyouSplashAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouSplashAdapter.h; sourceTree = "<group>"; };
@@ -40,7 +75,16 @@
 		E4CB9BED275508E900AA669B /* LeyouRewardedVideoAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouRewardedVideoAdapter.m; sourceTree = "<group>"; };
 		E4CB9BF02755095300AA669B /* LeyouRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeyouRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
 		E4CB9BF12755095300AA669B /* LeyouRewardedVideoCustomEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeyouRewardedVideoCustomEvent.m; sourceTree = "<group>"; };
-		EC21F05A94C1150600789364 /* Pods-AnyThinkLeyoAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnyThinkLeyoAdapter.release.xcconfig"; path = "Target Support Files/Pods-AnyThinkLeyoAdapter/Pods-AnyThinkLeyoAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		E4EF27802CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeExpressAdAdapter.m; sourceTree = "<group>"; };
+		E4EF27812CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeExpressCustomEvent.m; sourceTree = "<group>"; };
+		E4EF27822CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouNativeExpressAdAdapter.h; sourceTree = "<group>"; };
+		E4EF27832CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouNativeExpressCustomEvent.h; sourceTree = "<group>"; };
+		E4EF278A2CA80FE2007CCDD7 /* LeyouNativeAdAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouNativeAdAdapter.h; sourceTree = "<group>"; };
+		E4EF278B2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeAdAdapter.m; sourceTree = "<group>"; };
+		E4EF27972CA90342007CCDD7 /* LeyouNativeAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeAdRenderer.m; sourceTree = "<group>"; };
+		E4EF27982CA90342007CCDD7 /* LeyouNativeAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouNativeAdRenderer.h; sourceTree = "<group>"; };
+		E4EF279B2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeyouNativeExpressAdRenderer.h; sourceTree = "<group>"; };
+		E4EF279C2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeyouNativeExpressAdRenderer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,28 +92,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F03A7DA81ABC85A21FF5E2 /* libPods-AnyThinkLeyoAdapter.a in Frameworks */,
+				4130371BD7554B677785E38F /* libPods-AnyThinkLeyoAdapter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5452B8FB68AA0E2F19D7D704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888609C66BEBDF6277964872 /* libPods-AnyThinkLeyoAdapter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D12A575C668EC0D5F4ACC79 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8788BBF8CD07904BD5DBF5E2 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */,
-				EC21F05A94C1150600789364 /* Pods-AnyThinkLeyoAdapter.release.xcconfig */,
+				3D0EFB7E0345FE8DB4FBF6D7 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */,
+				68BEE74DD4CB65B4F30A1FBF /* Pods-AnyThinkLeyoAdapter.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A9530109C3C20C9A258DC4CC /* Frameworks */ = {
+		E45D83A02CA414860083FD55 /* banner */ = {
 			isa = PBXGroup;
 			children = (
-				24DAC7985032C4EB525A9D78 /* libPods-AnyThinkLeyoAdapter.a */,
+				E45D83A22CA415070083FD55 /* LeyouBannerAdapter.h */,
+				E45D83A32CA415070083FD55 /* LeyouBannerAdapter.m */,
+				E45D83A72CA415230083FD55 /* LeyouBannerCustomEvent.h */,
+				E45D83A82CA415230083FD55 /* LeyouBannerCustomEvent.m */,
 			);
-			name = Frameworks;
+			path = banner;
+			sourceTree = "<group>";
+		};
+		E45D83A12CA4149C0083FD55 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF278E2CA811D7007CCDD7 /* native */,
+				E4EF277D2CA80239007CCDD7 /* nativexpress */,
+				E45D83AF2CA4FEFE0083FD55 /* LeyouNativeAdapter.h */,
+				E45D83B02CA4FEFE0083FD55 /* LeyouNativeAdapter.m */,
+			);
+			path = native;
 			sourceTree = "<group>";
 		};
 		E4CB9B872754DF0100AA669B = {
@@ -78,7 +144,7 @@
 				E4CB9B932754DF0100AA669B /* AnyThinkLeyoAdapter */,
 				E4CB9B922754DF0100AA669B /* Products */,
 				8D12A575C668EC0D5F4ACC79 /* Pods */,
-				A9530109C3C20C9A258DC4CC /* Frameworks */,
+				5452B8FB68AA0E2F19D7D704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,9 +159,15 @@
 		E4CB9B932754DF0100AA669B /* AnyThinkLeyoAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				E45D83A12CA4149C0083FD55 /* native */,
+				E45D83A02CA414860083FD55 /* banner */,
 				E4CB9BDF2754F86900AA669B /* rewardvideo */,
 				E4CB9BDE2754F85700AA669B /* interstitial */,
 				E4CB9BDD2754F84700AA669B /* splash */,
+				E45D83992CA3AC660083FD55 /* LeyouBiddingManager.h */,
+				E45D83982CA3AC660083FD55 /* LeyouBiddingManager.m */,
+				E45D839B2CA3AC660083FD55 /* LeyouBiddingRequest.h */,
+				E45D839A2CA3AC660083FD55 /* LeyouBiddingRequest.m */,
 				E4CB9B942754DF0100AA669B /* AnyThinkLeyoAdapter.h */,
 			);
 			path = AnyThinkLeyoAdapter;
@@ -134,6 +206,32 @@
 			path = rewardvideo;
 			sourceTree = "<group>";
 		};
+		E4EF277D2CA80239007CCDD7 /* nativexpress */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF27822CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.h */,
+				E4EF27802CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.m */,
+				E4EF27832CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.h */,
+				E4EF27812CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.m */,
+				E4EF279B2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.h */,
+				E4EF279C2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.m */,
+			);
+			path = nativexpress;
+			sourceTree = "<group>";
+		};
+		E4EF278E2CA811D7007CCDD7 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				E4EF278A2CA80FE2007CCDD7 /* LeyouNativeAdAdapter.h */,
+				E4EF278B2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.m */,
+				E45D83B32CA4FF290083FD55 /* LeyouNativeCustomEvent.h */,
+				E45D83B42CA4FF290083FD55 /* LeyouNativeCustomEvent.m */,
+				E4EF27982CA90342007CCDD7 /* LeyouNativeAdRenderer.h */,
+				E4EF27972CA90342007CCDD7 /* LeyouNativeAdRenderer.m */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -141,12 +239,23 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45D83A92CA415230083FD55 /* LeyouBannerCustomEvent.h in Headers */,
+				E4EF27882CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.h in Headers */,
+				E4EF27892CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.h in Headers */,
+				E4EF279A2CA90342007CCDD7 /* LeyouNativeAdRenderer.h in Headers */,
 				E4CB9BDB2754EE9400AA669B /* LeyouSplashAdapter.h in Headers */,
+				E45D83A42CA415070083FD55 /* LeyouBannerAdapter.h in Headers */,
 				E4CB9B952754DF0100AA669B /* AnyThinkLeyoAdapter.h in Headers */,
+				E45D839F2CA3AC660083FD55 /* LeyouBiddingRequest.h in Headers */,
 				E4CB9BE22754FB8600AA669B /* LeyouSplashCustomEvent.h in Headers */,
 				E4CB9BEE275508E900AA669B /* LeyouRewardedVideoAdapter.h in Headers */,
+				E45D839D2CA3AC660083FD55 /* LeyouBiddingManager.h in Headers */,
+				E4EF279D2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.h in Headers */,
+				E45D83B12CA4FEFE0083FD55 /* LeyouNativeAdapter.h in Headers */,
+				E4EF278C2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.h in Headers */,
 				E4CB9BF22755095300AA669B /* LeyouRewardedVideoCustomEvent.h in Headers */,
 				E4CB9BE62755086000AA669B /* LeyouInterstitialCustomEvent.h in Headers */,
+				E45D83B52CA4FF290083FD55 /* LeyouNativeCustomEvent.h in Headers */,
 				E4CB9BEA275508B200AA669B /* LeyouInterstitialAdapter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,13 +267,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4CB9B982754DF0100AA669B /* Build configuration list for PBXNativeTarget "AnyThinkLeyoAdapter" */;
 			buildPhases = (
-				FEF994B6E20F78EBD72DDB0B /* [CP] Check Pods Manifest.lock */,
+				4E6CDA8FEE0BFD78C675971B /* [CP] Check Pods Manifest.lock */,
 				E4CB9B8C2754DF0100AA669B /* Headers */,
 				E4CB9B8D2754DF0100AA669B /* Sources */,
 				E4CB9B8E2754DF0100AA669B /* Frameworks */,
 				E4CB9B8F2754DF0100AA669B /* Resources */,
-				A77215F27F4C4F2EDA0CA670 /* [CP] Copy Pods Resources */,
 				E4CB9BFC2756164100AA669B /* ShellScript */,
+				DDFD1642E317E07958853AF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,7 +327,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A77215F27F4C4F2EDA0CA670 /* [CP] Copy Pods Resources */ = {
+		4E6CDA8FEE0BFD78C675971B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnyThinkLeyoAdapter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDFD1642E317E07958853AF1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,28 +383,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ \"${ACTION}\" = \"build\" -a \"${CONFIGURATION}\" = \"Release\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${TARGET_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\n\nif [ -d \"${INSTALL_DIR}\" ]\n# -d file 检测文件是否是目录，如果是，则返回 true。 [ -d $file ] 返回 false。\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n#mkdir -p递归创建目录，会把子目录也创建出来\n#复制真机和模拟器目录下的文件夹,合并到一起\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\ncp -R \"${SIMULATOR_DIR}/\" \"${INSTALL_DIR}/\"\n#cp -R 拷贝文件，对特殊文件（管道文件，块设备文件，字符设备文件）会进行创建操作，而不是拷贝\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nDEVICE_FILE=\"${DEVICE_DIR}/${TARGET_NAME}\"\nSIMULATOR_FILE=\"${SIMULATOR_DIR}/${TARGET_NAME}\"\nOUTPUT_FILE=\"${INSTALL_DIR}/${TARGET_NAME}\"\necho \"OUTPUT_FILE=${OUTPUT_FILE}\"\nlipo -info ${DEVICE_FILE}\nlipo -info ${SIMULATOR_FILE}\nlipo -create ${DEVICE_FILE} ${SIMULATOR_FILE} -output ${OUTPUT_FILE}\nlipo -info ${OUTPUT_FILE}\nopen \"${SRCROOT}/Products/\"\necho  \"${INSTALL_DIR}/\"\nfi\n";
 		};
-		FEF994B6E20F78EBD72DDB0B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AnyThinkLeyoAdapter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -285,8 +394,19 @@
 				E4CB9BEB275508B200AA669B /* LeyouInterstitialAdapter.m in Sources */,
 				E4CB9BF32755095300AA669B /* LeyouRewardedVideoCustomEvent.m in Sources */,
 				E4CB9BDC2754EE9400AA669B /* LeyouSplashAdapter.m in Sources */,
+				E4EF27992CA90342007CCDD7 /* LeyouNativeAdRenderer.m in Sources */,
+				E4EF27872CA802A1007CCDD7 /* LeyouNativeExpressCustomEvent.m in Sources */,
+				E4EF279E2CA9034E007CCDD7 /* LeyouNativeExpressAdRenderer.m in Sources */,
+				E45D83AA2CA415230083FD55 /* LeyouBannerCustomEvent.m in Sources */,
+				E45D83B62CA4FF290083FD55 /* LeyouNativeCustomEvent.m in Sources */,
+				E45D839C2CA3AC660083FD55 /* LeyouBiddingManager.m in Sources */,
+				E4EF27862CA802A1007CCDD7 /* LeyouNativeExpressAdAdapter.m in Sources */,
 				E4CB9BE32754FB8600AA669B /* LeyouSplashCustomEvent.m in Sources */,
 				E4CB9BE72755086000AA669B /* LeyouInterstitialCustomEvent.m in Sources */,
+				E45D839E2CA3AC660083FD55 /* LeyouBiddingRequest.m in Sources */,
+				E45D83B22CA4FEFE0083FD55 /* LeyouNativeAdapter.m in Sources */,
+				E45D83A52CA415070083FD55 /* LeyouBannerAdapter.m in Sources */,
+				E4EF278D2CA80FE3007CCDD7 /* LeyouNativeAdAdapter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +533,7 @@
 		};
 		E4CB9B992754DF0100AA669B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8788BBF8CD07904BD5DBF5E2 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */;
+			baseConfigurationReference = 3D0EFB7E0345FE8DB4FBF6D7 /* Pods-AnyThinkLeyoAdapter.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -442,7 +562,7 @@
 		};
 		E4CB9B9A2754DF0100AA669B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC21F05A94C1150600789364 /* Pods-AnyThinkLeyoAdapter.release.xcconfig */;
+			baseConfigurationReference = 68BEE74DD4CB65B4F30A1FBF /* Pods-AnyThinkLeyoAdapter.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
